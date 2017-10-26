@@ -1,0 +1,205 @@
+*{								/* For all declarations */
+	box-sizing: border-box;   
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+html,body{						/* For all declarations */
+	
+	width:100%;
+	height: 100%;
+}
+
+body { 
+
+	background: white;
+	
+}
+
+
+.red-bg{
+
+	background: red; 
+	width: 72%;
+}
+
+.yellow-bg{
+
+    background: yellow;
+	
+}
+
+.orange-bg{
+
+    background: orange;
+	width: 10%;
+    height: 10%;
+
+}
+
+.green-bg{
+    
+    background: green;
+    width: 10%;
+    height: 10%;
+
+}
+
+.white-bg{
+	
+	background: white; 
+	
+}
+
+.black-bg{
+    
+    background: black;
+    color: White;
+}
+
+.line1{
+	
+	width: 32%;
+	height: 40%;
+	display: inline-block;
+}
+
+.line2{
+	
+	width: 32%;
+	height: 52%;
+	display: inline-block;
+}
+
+.borderexample
+{
+	border-style:solid;
+	border-color:black;
+	border-width: 2px;
+} 
+
+.centered  /* Candidate for my own library, case: center child element inside parent */
+{
+	text-align:center;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#PrimaryContent
+{
+	
+	margin: .5em;
+    padding: 15%;
+    transform: translateX(-53%);
+	position: relative; /* position 'relative' parent will have position 'absolute' child */
+}
+
+#SecondaryContent
+{
+    width: 97%;
+    margin: 2px;
+}
+
+#ThirdContent
+{
+	padding: 13%;
+    transform: translateX(-51%) translateY(-53%);
+}
+
+#FourthContent
+{
+	position: absolute; /* position 'relative' parent will have position 'absolute' child */
+	right: 1em;
+	top: 1em;
+}
+
+#FifthContent
+{
+	position: absolute;
+	left: 1em;
+	bottom: 1em;
+}
+
+#GreenParent
+{
+	position: relative;
+	
+}
+
+.GreenChild
+{
+	position: absolute;
+}
+
+#GreenChild1
+{
+	left: 1em;
+	bottom: 1em;
+	
+}
+
+#GreenChild3
+{
+	right: 2em;
+	bottom: 1em;
+	text-decoration: underline;
+}
+
+/*
+.dotsimage
+{
+	background-image: url('56763.png');
+	width: 3em;
+	height: 3em;
+	
+}*/
+
+#dotsimage
+{
+	line-height: .6em;
+    font-weight: bold;
+}
+
+#FooterParent
+{
+	position: relative;
+	min-height: 6em;
+}
+
+/*
+.FooterChild
+{
+	position: absolute;
+	
+}*/
+
+#FooterChild1
+{
+	position: absolute;
+	text-decoration:underline;
+	left: 1em;
+	bottom: 1em;
+	
+}
+
+#FooterChild2
+{
+	text-decoration: underline;
+	left: 18em;
+}
+
+#FooterChild3
+{
+	text-decoration: underline;
+	left: 23em;
+	
+}
+
+#FooterChild4
+{
+	left: 30em;
+	font-weight: bold;
+}
